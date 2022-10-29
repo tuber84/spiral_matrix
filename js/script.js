@@ -2,7 +2,7 @@ const w = +5; //ширина матрицы
 const h = +7; //высота матрицы
 
 function matrix(w, h) {
-  let result = new Array(h).fill().map(() => new Array(w).fill("")); //заполняем матрицу значениями
+  let result = new Array(h).fill().map(() => new Array(w).fill("")); //заполняем матрицу "пустыми" значениями
 
   let counter = 1;
   let startCol = 0;
